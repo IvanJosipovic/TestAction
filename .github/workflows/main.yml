@@ -16,7 +16,7 @@ jobs:
       id: netlify
       uses: ivanjosipovic/actions/cli@dev2
       with:
-        args: deploy --json -d .
+        args: deploy1 --json -d .
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
