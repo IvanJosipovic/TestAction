@@ -14,7 +14,7 @@ jobs:
     
     - name: Deploy to Netlify
       id: netlify
-      uses: ivanjosipovic/actions/cli@dev2
+      uses: ivanjosipovic/actions/cli@master
       with:
         args: deploy --json -d .
       env:
